@@ -1,0 +1,11 @@
+react app start "npm start"
+
+for user given scripts inside package.json we have to use "npm run command"
+
+for changing port "uvicorn main:app --reload port no"
+
+// for uninstalling all libraries
+Get-Content del.txt | ForEach-Object { pip uninstall -y $_ }
+
+// react boilerplate
+rfce
