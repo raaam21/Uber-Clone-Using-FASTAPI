@@ -1,6 +1,5 @@
 # Uber Clone App
 
-![Uber Clone Logo](./logo.png)
 
 ## Overview
 
