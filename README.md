@@ -21,6 +21,9 @@ Before getting started with this project, ensure you have the following prerequi
 - [Node.js](https://nodejs.org/) (14+ recommended)
 - [npm](https://www.npmjs.com/get-npm)
 - [Git](https://git-scm.com/downloads)
+- [Postman API](https://www.postman.com/downloads/)
+
+
 
 ## Installation
 
