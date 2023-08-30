@@ -10,14 +10,14 @@ from typing import List
 router = APIRouter()
 
 
-@router.post('/api/v3/signup',response_model = models.UserCreateResponse)
+@router.post('/api/v3/signup')
 async def signup(user_obj:models.UserCreateRequest):
     db = database_manager.get_db()
     user_coll = db.user_coll
     
     user_obj=user_obj.dict()
     
-    result =await user_coll.find_one({"email" : user_obj['email']})
+    result = await user_coll.find_one({"email" : user_obj['email']})
     
     if result:
         return {"Status":"Failure","message":"User Already exist !!"}
