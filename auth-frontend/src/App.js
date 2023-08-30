@@ -1,6 +1,6 @@
 import NavBar from './components/NavBar';
 import axios from 'axios';
-import background from "./Uber_bg.jpg";
+
 
 
 function App() {
@@ -9,12 +9,7 @@ function App() {
   
   const app_var = "App_variable" ;
   return (
-    <div style={{ 
-      backgroundImage: `url(${background})`,
-      height:'100vh',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-      }}>
+    <div>
       <NavBar/> 
       <h1>this is {app_var} !!</h1>
     </div>
