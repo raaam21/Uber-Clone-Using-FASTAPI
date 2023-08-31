@@ -9,3 +9,6 @@ Get-Content del.txt | ForEach-Object { pip uninstall -y $_ }
 
 // react boilerplate
 rfce
+
+// To run JavaScript File
+node name.js

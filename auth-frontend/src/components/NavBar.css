@@ -1,4 +1,4 @@
-.NavBar{
+.navBar{
     background-color: black;
     color: white;
     margin: 0;
@@ -7,5 +7,47 @@
     flex-direction: row;
     position:-webkit-sticky; /* Safari */
     position: sticky;
+    display: flex;
+
+    /* Horizontal Alignment */
+    justify-content: space-between;
+
+    /* Vertical Alignment */
+    align-items: center;
+}
+
+.NavBarLeft{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.NavBarLeft{    
+    display: flex;
+    flex-direction: row;
+}
+
+
+.navBar ul{
+    /* Hand Icon */
+    cursor: pointer;
+}
+
+.NavBar_login_Button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15%;
+    cursor: pointer;
+    border: none;
+
+}
+
+.NavBar_Signup_Button{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 15%;
+    cursor: pointer;
 
 }

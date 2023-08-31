@@ -1,6 +1,7 @@
 import NavBar from './components/NavBar';
 import axios from 'axios';
-
+import Login from './components/Login';
+import './App.css'
 
 
 function App() {
@@ -9,9 +10,9 @@ function App() {
   
   const app_var = "App_variable" ;
   return (
-    <div>
+    <div className='app'>
       <NavBar/> 
-      <h1>this is {app_var} !!</h1>
+      <Login/>
     </div>
   );
 }
