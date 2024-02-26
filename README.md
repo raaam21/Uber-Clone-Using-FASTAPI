@@ -140,13 +140,5 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 - Special thanks to the FastAPI and React communities for their fantastic tools and resources.
 
-## Contact
-
-If you have any questions or need further assistance, feel free to contact the project maintainers:
-
-- Your Name - your.email@example.com
-- Another Contributor - another.email@example.com
-
----
 
 Happy coding! 🚗🚀
